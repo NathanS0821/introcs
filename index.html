@@ -29,9 +29,14 @@
             color:black;
             font-size:40px;
             }
-            .list{
+            ul.MyUl{
+            display: inline-block;
+            text-align: left;
+            }
+            div.container{
             text-align:center;
             }
+            
         </style>
     </head>
     
@@ -58,11 +63,12 @@
         <hr>
         <p id="important"> Saul Goodman is a:</p>
         <br>
-        <ul class="list">
-            <li class="list">Criminal Defense Lawyer</li>
-            <li class="list">Scam Artist</li>
-            <li class="list" >Conficted Felon</li>
-            <li class="list">
+        <div class="container">
+        <ul class="MyUl">
+            <li>Criminal Defense Lawyer</li>
+            <li>Scam Artist</li>
+            <li>Conficted Felon</li>
+            <li>
             <marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">
                 <marquee behavior="alternate">
                 <img class="image" src="3d-saul-saul-goodman.gif"
@@ -71,5 +77,6 @@
             </marquee>
             </li>
         </ul>
+        </div>
              </body>
 </html>
